@@ -53,3 +53,10 @@
   color: white;
   cursor: pointer;
 }
+
+@media  (max-width: 768px) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
