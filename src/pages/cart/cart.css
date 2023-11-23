@@ -31,11 +31,24 @@
   font-weight: bolder;
 }
 
-.checkout button {
+.checkout .btn {
   width: 150px;
   height: 50px;
   background-color: rgb(19, 19, 19);
   color: white;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.empty-cart .btn {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  text-align: center;
   border: none;
   border-radius: 8px;
   margin: 10px;
@@ -50,10 +63,10 @@
   .cartItem img {
     width: 100px;
   }
-  .cartItem .description{
+  .cartItem .description {
     font-size: 20px;
   }
-  .cartItem .description p{
+  .cartItem .description p {
     padding: 5px;
     margin: 0;
   }
